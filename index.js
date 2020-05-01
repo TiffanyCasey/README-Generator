@@ -50,16 +50,14 @@ inquirer.prompt([
         message: "Have you tested your project",
         name: "tests"
       }
-    ])
+    ]).then(function(data) {
+      fs.writeFile("README.md", JSON.stringify(data, null, '\t'), function(err) {
+    
+    if (err) {
+      return console.log(err);
+    }
 
-//     .then fs.writeToFile("README.md", (err) => {
-//       if (err) {
-//         //     return console.log(err);
-//       //   }
+    console.log("Success!");
 
-
-// // fs.writeToFile("README.md", (err) => {
-// //   if (err) {
-// //     return console.log(err);
-// //   }
-// // });
+  });
+});
