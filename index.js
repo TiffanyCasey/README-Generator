@@ -1,9 +1,11 @@
 const fs = require("fs");
 const inquirer = require("inquirer");
 const axios = require("axios");
-// const util = require('util');
+const util = require('util');
 const generateMarkdown = require("./utils/generateMarkdown")
 const api = require("./utils/api")
+
+const writeFileAsync = util.promisify(fs.writeFile)
 
 
 // Questions User Answers
@@ -32,7 +34,7 @@ function askQuestions() {
       {
         type: "input",
         message: "Please a table of contents for your project.",
-        name: "table of contents"
+        name: "tableofcontents"
       },
       {
         type: "input",
@@ -57,9 +59,11 @@ function askQuestions() {
         name: "contributing"
       },
       {
-        type: "input",
+        type: "list",
         message: "Have you tested your project",
-        name: "tests"
+        name: "tests",
+        choices: ["Yes", "No"]
+
       }
     ]); // end of return 
   }; // end of function 
