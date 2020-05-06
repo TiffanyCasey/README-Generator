@@ -1,39 +1,38 @@
 
-  # test 
-
-  ## Technologies Used
-  [![Badge] https://img.shields.io/badge/Built_With:-test-4cbbb9
+  # My Project 
   
   ## Description
-    test
+    This is a description of my project
 
   ## Table of Contents
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [License](#license)
-    - [Tests](#tests)
-    - [Contributors](#contributors)
-    - [Details](#details)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Tests](#tests)
+  - [Contributors](#contributer)
+  - [Details](#details)
 
   ## Installation
-  Packages required to run this program are: test
+  Packages required to run this program are: npm i inquirer
   
   ## Usage
-  Examples of how to use this program: test
+  Examples of how to use this program: To create a simple README file
 
   ## License
-  MIT
+  None
 
   ## Tests
-  To test, run the following command: test
+  To test, run the following command: N/A
 
   ## Contributors
-  undefined
+  Tiffany Casey
 
-  ## Details
+  ## Contact
   
- This was created by: ![Profile Image]https://github.com/test.png?size=300 
+![Badge](https://img.shields.io/badge/Github-TiffanyCasey-4cbbb9) 
   
- View the project in GitHub at: test
+![Profile Image](https://github.com/TiffanyCasey.png?size=50)
   
- If you have any questions, contact the author directly at test.
+View the project in GitHub at: www.github.com/project
+  
+If you have any questions, contact the author directly at email@gmail.com.

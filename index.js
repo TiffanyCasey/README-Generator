@@ -56,7 +56,7 @@ function askQuestions() {
     {
       type: "input",
       message: "Including yourself, please list out all contributors",
-      name: "contributing"
+      name: "contributer"
     },
     {
       type: "input",
