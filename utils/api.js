@@ -16,9 +16,8 @@ const api = {
 
       // Grab the GitHub avatar image
       axios.get(queryUrl).then(function(res) {
-
-        const avatar = res.data.avatar_url
-        console.log(avatar);
+        const avatarURL = res.data.avatar_url
+        console.log(avatarURL);
       });  
     });    
   }
