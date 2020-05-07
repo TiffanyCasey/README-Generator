@@ -29,7 +29,7 @@ function generateMarkdown(data) {
   To test, run the following command: ${data.tests}
 
   ## Contributors
-  ${data.contributors}
+  ${data.contributer}
 
   ## Contact
   \n![Badge](${gitHub}) 
