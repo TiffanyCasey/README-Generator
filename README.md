@@ -1,38 +1,17 @@
 
-  # My Project 
-  
-  ## Description
-    This is a description of my project
+# READ ME GENERATOR
 
-  ## Table of Contents
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [License](#license)
-  - [Tests](#tests)
-  - [Contributors](#contributer)
-  - [Details](#details)
+## Description
+The user is prompted for their GitHub username, which will be used to make a call to the GitHub API to retrieve their      email and profile image. They will then be prompted with questions about their project.
 
-  ## Installation
-  Packages required to run this program are: npm i inquirer
-  
-  ## Usage
-  Examples of how to use this program: To create a simple README file
+A command-line application that dynamically generates a README.md from a user's input. The application will be invoked with the following command:
 
-  ## License
-  None
+```
+node index.js
+```
+## Technologies Used: 
+Node JS, JavaScript 
 
-  ## Tests
-  To test, run the following command: N/A
+## Demonstration 
 
-  ## Contributors
-  Tiffany Casey
-
-  ## Contact
-  
-![Badge](https://img.shields.io/badge/Github-TiffanyCasey-4cbbb9) 
-  
-![Profile Image](https://github.com/TiffanyCasey.png?size=50)
-  
-View the project in GitHub at: www.github.com/project
-  
-If you have any questions, contact the author directly at email@gmail.com.
+<iframe src="https://drive.google.com/file/d/1zC6rNyGGcWRHuf-sy6UvTPlImM0W8dOM/preview" width="640" height="480"></iframe>
